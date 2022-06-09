@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unagi</title>
+
+    <link rel="shortcut icon" href="images/icons/fav-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/foundation.min.css">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!-- Fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <!-- Script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="script.js" type="module"></script>
+</head>
+
+<body>
+
+    <main>
+        <header class="d-flex justify-content-center p-1">
+            <img src="images/icons/logo.svg" alt="">
+        </header>
+
+        <div class="container-fluid banner">
+            <div class="container d-flex banner-container">
+                <div class="text">
+                    <h1>Sobre nós!</h1>
+                    <p>
+                        Seja bem-vindo ao hotsite do grupo Unagi. Agora,
+                        com novidades, está sendo a atualização visual, tentando
+                        comprir os requisitos de ser mais agradável visualmente.
+                    </p>
+
+                    <h4>Saiba mais assistindo ao vídeo!</h4>
+                    <div class="mt-4">
+                        <a href="#carouselExampleDark">Aprenda com o slide!</a>
+                        <a href="#carouselExampleDark">Visite a Galeria!</a>
+                    </div>
+                    
+
+                </div>
+                <div class="m-5" id="video">
+                    <div class="container p-0 m-0" style="height: 320px;">
+
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/N8hPuUUS3bU"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <article class="container-fluid">
+            <div class="container all">
+
+            </div>
+        </article>
+
+        <article class="container-fluid">
+
+            <div class="container all" style="padding: 3rem 0 3rem 0;">
+                <div class="col d-grid gap-4">
+
+                    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+
+                        <div class="container box">
+
+                            <div class="carousel-inner">
+
+                                <div class="carousel-item active" >
+                                    <img src="images/tinkeracad/atividade01.png" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item" >
+                                    <img src="images/tinkeracad/atividade02.png" class="d-block w-100" alt="...">
+
+                                </div>
+                                <div class="carousel-item" >
+                                    <img src="images/tinkeracad/atividade03.png" class="d-block w-100" alt="...">
+
+                                </div>
+                                <div class="carousel-item" >
+                                    <img src="images/tinkeracad/atividade04.png" class="d-block w-100" alt="...">
+                                </div>
+
+                            </div>
+                            <div class="d-flex w-100 justify-content-center">
+
+                                <div class="carousel-indicators"
+                                    style="position: unset !important; margin: 0 !important;">
+                                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
+                                        class="active" aria-current="true" aria-label="Slide 1"></button>
+
+                                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                                        aria-label="Slide 2"></button>
+
+                                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                                        aria-label="Slide 3"></button>
+
+                                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
+                                        aria-label="Slide 4"></button>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div id="label" class="container row box">
+
+                        <div id="text" class="container col-6">
+                            <!-- insert by js on /assets/data.js-->
+                        </div>
+                        <div id="code" class="container col-6">
+                            <!-- insert by js on /assets/data.js-->
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </article>
+
+        <footer>
+
+            <div class="container">
+                <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+                    <div class="col-2 mb-3">
+                        <p>© 2022</p>
+                    </div>
+
+                    <div class="col mb-3 me-2">
+                        <h5>Daniela</h5>
+                        <ul class="nav flex-row align-items-center" style="gap: 5px">
+                            <li class="nav-item mb-2">Design</li>
+                            <li class="nav-item mb-2">Design Logo</li>
+                            <li class="nav-item mb-2">HTML</li>
+                            <li class="nav-item mb-2">CSS</li>
+                            <li class="nav-item mb-2">JS</li>
+                            <li class="nav-item mb-2">"O que é a TI"</li>
+                            <li class="nav-item mb-2">"O que é a robótica"</li>
+                            <li class="nav-item mb-2">Bootstrap</li>
+                            <li class="nav-item mb-2">Slides</li>
+                            <li class="nav-item mb-2">Refatoração do site</li>
+                            <li class="nav-item mb-2">Inserção de imagens</li>
+                        </ul>
+                    </div>
+
+                    <div class="col mb-3 me-2">
+                        <h5>Roberta</h5>
+                        <ul class="nav flex-row align-items-center" style="gap: 5px">
+                            <li class="nav-item mb-2">HTML</li>
+                            <li class="nav-item mb-2">CSS</li>
+                            <li class="nav-item mb-2">C++</li>
+                            <li class="nav-item mb-2">TinkerAcad</li>
+                            <li class="nav-item mb-2">"Fases da TI"</li>
+                            <li class="nav-item mb-2">"Relação da TI com a robótica"</li>
+                            <li class="nav-item mb-2">Estudo de componentes TinkerAcad</li>
+                            <li class="nav-item mb-2">Elaboração de textos</li>
+
+                        </ul>
+                    </div>
+
+                    <div class="col mb-3">
+                        <h5>Tailon</h5>
+                        <ul class="nav flex-row align-items-center" style="gap: 5px">
+                            <li class="nav-item mb-2">Melhorias Visuais</li>
+                            <li class="nav-item mb-2">Design</li>
+                            <li class="nav-item mb-2">Edição de vídeo</li>
+                            <li class="nav-item mb-2">JS</li>
+                            <li class="nav-item mb-2">HTML</li>
+                            <li class="nav-item mb-2">CSS</li>
+
+                            <li class="nav-item mb-2">"Fases da robótica"</li>
+
+                            <li class="nav-item mb-2">Ajuste de qualidade de imagem</li>
+                            <li class="nav-item mb-2">Edição de imagens</li>
+                        </ul>
+                    </div>
+                </footer>
+            </div>
+
+        </footer>
+    </main>
+
+
+    <!-- Script Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <!-- Script HIGHLIGHTINHCODE -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+</body>
+
+</html>
